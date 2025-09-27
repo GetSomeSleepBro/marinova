@@ -1,0 +1,5 @@
+[
+  { "id": 1, "name": "Coral Bleaching Study", "summary": "Monitoring bleaching across reefs", "status": "Active" },
+  { "id": 2, "name": "Plastic Pollution Mapping", "summary": "Tracking microplastics with citizen data", "status": "Planning" }
+]
+

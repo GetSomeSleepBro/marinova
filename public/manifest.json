@@ -1,0 +1,11 @@
+{
+  "name": "AquaVision",
+  "short_name": "AquaVision",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a2a4f",
+  "theme_color": "#007BFF",
+  "description": "Mobile-first marine data platform demo.",
+  "icons": []
+}
+

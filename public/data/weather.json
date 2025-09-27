@@ -1,0 +1,6 @@
+[
+  { "time": "07:00", "waveHeight": "1.5m", "tide": "Low", "fish": "High", "temp": "29°C" },
+  { "time": "08:00", "waveHeight": "1.6m", "tide": "Rising", "fish": "High", "temp": "30°C" },
+  { "time": "09:00", "waveHeight": "1.8m", "tide": "Mid", "fish": "Medium", "temp": "31°C" }
+]
+

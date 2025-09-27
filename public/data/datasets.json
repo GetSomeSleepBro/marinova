@@ -1,0 +1,6 @@
+[
+  { "id": "ds1", "name": "Sea Surface Temperature (SST)", "tags": ["temperature", "satellite"], "size": "1.2GB" },
+  { "id": "ds2", "name": "Fish Population Index", "tags": ["biodiversity", "fisheries"], "size": "640MB" },
+  { "id": "ds3", "name": "Wave Height & Tide", "tags": ["oceanography"], "size": "320MB" }
+]
+

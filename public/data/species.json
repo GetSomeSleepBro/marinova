@@ -1,0 +1,9 @@
+[
+  { "id": "blue-tang", "name": "Blue Tang", "region": "Tropical Indo-Pacific" },
+  { "id": "clownfish", "name": "Clownfish", "region": "Indian & Pacific Oceans" },
+  { "id": "manta-ray", "name": "Manta Ray", "region": "Tropical Waters" },
+  { "id": "great-white", "name": "Great White Shark", "region": "Coastal Waters" },
+  { "id": "sea-turtle", "name": "Sea Turtle", "region": "Global" },
+  { "id": "coral", "name": "Coral Reefs", "region": "Tropical Waters" }
+]
+

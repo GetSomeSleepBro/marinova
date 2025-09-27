@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-from: #063a6b; /* deeper ocean blue */
+  --bg-to: #0a6ad1;  /* primary-tinted blue */
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  @apply bg-gradient-to-b from-[var(--bg-from)] to-[var(--bg-to)] text-white;
+}
+
+.card {
+  @apply bg-white text-slate-900 rounded-xl shadow-lg backdrop-blur p-4;
+}
+
+.btn-primary {
+  @apply bg-primary text-white rounded-full px-4 py-3 font-semibold hover:bg-ocean-600 active:bg-ocean-700 transition-colors;
+}
+
+.btn-ghost {
+  @apply bg-white text-primary rounded-full px-4 py-3 font-semibold hover:bg-ocean-50 transition-colors;
+}
+
+.touch-target {
+  min-height: 48px;
+}
+
+/* Safe padding to avoid bottom nav overlap and iOS safe area */
+.pb-safe {
+  padding-bottom: calc(env(safe-area-inset-bottom) + 5rem);
+}
+
+/* Tooltip arrow */
+.tooltip::after {
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  left: 12px;
+  border-width: 6px 6px 0 6px;
+  border-style: solid;
+  border-color: rgba(0,0,0,0.75) transparent transparent transparent;
+}
+
+/* Improve readability of light text over gradients */
+.text-outline {
+  text-shadow: 0 1px 2px rgba(0,0,0,.45);
+}
+
+/* Basic windy cloud animation */
+.windy {
+  background: linear-gradient(90deg, rgba(255,255,255,0.8) 0, rgba(255,255,255,0.0) 60%);
+  background-size: 200% 100%;
+  animation: windy 4s linear infinite;
+}
+@keyframes windy {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
